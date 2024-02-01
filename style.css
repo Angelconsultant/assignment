@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background-image.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.eye-slash {
+    position: relative;
+    top: -28px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.eye-slash:before {
+    content: '\f070'; /* Font Awesome eye-slash icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #777;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a64c7;
+}
+
+div.google-login {
+    margin-top: 15px;
+    text-align: center;
+}
+
+div.google-login button {
+    background-color: #34a853;
+}
+
+div.google-login button:hover {
+    background-color: #238c3f;
+}
+
+div.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.login-link a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+div.login-link a:hover {
+    text-decoration: underline;
+}
